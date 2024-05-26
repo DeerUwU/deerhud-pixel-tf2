@@ -2,56 +2,56 @@
 {
 	// These buttons are only shown while in-game
 	// and also are positioned by the .res file
-	
+
 	"ServerBrowserButton"
 	{
-		"label" "Servers"//"#MMenu_BrowseServers" 
+		"label" "Servers"//"#MMenu_BrowseServers"
 		"command" "OpenServerBrowser"
 		"OnlyInGame" "1"
 		"tooltip" ""
 	}
 	"ServerBrowserButtonWide"
 	{
-		"label" "Servers"//"#MMenu_BrowseServers" 
+		"label" "Servers"//"#MMenu_BrowseServers"
 		"command" "OpenServerBrowser"
 		"OnlyAtMenu" "1"
 		"tooltip" ""
 	}
 	// "ResumeButton"
 	// {
-		// "label" "Resume" //"#MMenu_ResumeGame" 
+		// "label" "Resume" //"#MMenu_ResumeGame"
 		// "command" "OpenServerBrowser"//"engine cancelselect"
 		// "OnlyInGame" "1"
 		// "tooltip" ""
 	// }
 	"DisconnectButton"
 	{
-		"label" 		"Leave" //"#MMenu_ResumeGame" 
+		"label" 		"Leave" //"#MMenu_ResumeGame"
 		"command" 		"engine disconnect"//"engine cancelselect"
 		"OnlyInGame" 	"1"
 		"tooltip" 		""
 	}
 	"QuitButton"
 	{
-		"label" 		"Quit" //"#MMenu_ResumeGame" 
+		"label" 		"Quit" //"#MMenu_ResumeGame"
 		"command" 		"engine quit"//"engine cancelselect"
 		"OnlyAtMenu" 	"1"
 		"tooltip" 		""
 	}
-	
-	
+
+
 	"ConsoleButton"
 	{
 		"label" 		"0"	//Deerhud Icon for console
 		"command" 		"engine con_enable 1;sv_cheats 1;toggleconsole"
 		"tooltip" 		"Open/Close Console"
-	} 
+	}
 	"RefreshMenu"
 	{
 		"label" 		"D"	//Deerhud Icon for reload
 		"command" 		"engine toggle mat_aaquality; hud_reloadscheme"
 		"tooltip" 		"refresh main menu"
-	} 
+	}
 	"CallVoteButton"
 	{
 		"label"			"2" //Deerhud Icon for checkmark
@@ -68,7 +68,7 @@
 		"subimage" 		"replay/thumbnails/misc/glyph_muted"
 		"tooltip" 		"#MMenu_MutePlayers"
 	}
-	
+
 	// "ToggleExtraButton"
 	// {
 		// "label"			"J" //Deerhud Icon for down arrow
@@ -76,7 +76,7 @@
 		// "OnlyAtMenu" 	"0"
 		// "tooltip" 		"Extras"
 	// }
-	
+
 	"CustomizeButton"
 	{
 		"label"			"6" //Deerhud Icon for star
@@ -84,9 +84,9 @@
 		"OnlyAtMenu" 	"0"
 		"tooltip" 		"DeerHud Customizations"
 	}
-	
-	
-	
+
+
+
 	"AchievementsButton"
 	{
 		"label"			"A" //Deerhud Icon for star
@@ -94,7 +94,7 @@
 		"OnlyAtMenu" 	"0"
 		"tooltip" 		"Achievements"
 	}
-	
+
 	"StoreButton"
 	{
 		"label"			"H" //Deerhud Icon for store
@@ -102,7 +102,7 @@
 		"OnlyAtMenu" 	"0"
 		"tooltip" 		"Store"
 	}
-	
+
 	"WorkshopButton"
 	{
 		"label"			"G" //Deerhud Icon for hammer+saw
@@ -145,8 +145,8 @@
 		"OnlyInGame"	"0"
 		"tooltip" 		"load Itemtest"
 	}
-	
-	
+
+
 	"reloadSoundButton"
 	{
 		"label"			"K"  //Deerhud Icon for sparkle
@@ -154,7 +154,7 @@
 		"OnlyInGame"	"0"
 		"tooltip" 		"Reload Sound"
 	}
-	
+
 	"FixInvisButton"
 	{
 		"label"			"K"  //Deerhud Icon for sparkle
@@ -162,7 +162,7 @@
 		"OnlyInGame"	"0"
 		"tooltip" 		"fix invis players (ends current demo)"
 	}
-	
+
 	"ClearDecalButton"
 	{
 		"label"			"K"  //Deerhud Icon for sparkle
@@ -171,8 +171,8 @@
 		"tooltip" 		"clears decals (bullet holes, bloodstains etc)"
 	}
 
-	
-	
+
+
 	"PreloadPanel" //small optimization
 	{
 		"label"	" "

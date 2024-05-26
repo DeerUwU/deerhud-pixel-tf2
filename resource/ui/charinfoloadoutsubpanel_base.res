@@ -1,4 +1,4 @@
-"Resource/UI/CharInfoLoadoutSubPanel.res"
+"Resource/UI/CharInfoLoadoutSubPanel_base.res"
 {
 	"CharInfoLoadoutSubPanel"
 	{
@@ -10,16 +10,16 @@
 		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"settitlebarvisible"	"1"
 		"PaintBackgroundType"	"0"
 		"bgcolor_override"	"46 43 42 255"
 		"infocus_bgcolor_override" "46 43 42 255"
 		"outoffocus_bgcolor_override" "46 43 42 255"
-		
+
 		"selectlabely_default"		"25"
 		"selectlabely_onchanges"	"15"
-		
+
 		"class_ypos"				"40"
 		"class_xdelta"				"5"
 		"class_wide_min"			"60"
@@ -29,15 +29,15 @@
 		"class_distance_min"		"7"
 		"class_distance_max"		"100"
 
-		"itemcountcolor"			"200 80 60 255"
+		"itemcountcolor"			"Deer_Primary"
 		"itemcountcolor_noitems"	"117 107 94 255"
 	}
-	
+
 	"scout"
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"scout"
-		"xpos"				"c-200"
+		"xpos"				"c-300"
 		"ypos"				"120"
 		"zpos"				"6"
 		"wide"				"60"
@@ -46,23 +46,23 @@
 		"pinCorner"			"2"
 		"visible"			"1"
 		"enabled"			"1"
-		
+		"tabPosition"		"0"
 		"labelText"			""
 		"textAlignment"		"south-west"
 		"Command"			"loadout scout"
+		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		"activeimage"		"class_sel_sm_scout_red"
 		"inactiveimage"		"class_sel_sm_scout_inactive"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
 	}
 	"soldier"
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"soldier"
-		"xpos"				"c-230"
+		"xpos"				"c-250"
 		"ypos"				"120"
 		"zpos"				"6"
 		"wide"				"60"
@@ -71,10 +71,11 @@
 		"pinCorner"			"2"
 		"visible"			"1"
 		"enabled"			"1"
+		"tabPosition"		"0"
 		"labelText"			""
 		"textAlignment"		"south-west"
 		"Command"			"loadout soldier"
-		
+		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		"activeimage"		"class_sel_sm_soldier_red"
@@ -86,7 +87,7 @@
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"pyro"
-		"xpos"				"c-180"
+		"xpos"				"c-200"
 		"ypos"				"120"
 		"zpos"				"6"
 		"wide"				"60"
@@ -95,11 +96,11 @@
 		"pinCorner"			"2"
 		"visible"			"1"
 		"enabled"			"1"
-		
+		"tabPosition"		"0"
 		"labelText"			""
 		"textAlignment"		"south-west"
 		"Command"			"loadout pyro"
-		
+		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		"activeimage"		"class_sel_sm_pyro_red"
@@ -107,12 +108,12 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"demoman"
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"demoman"
-		"xpos"				"c-90"
+		"xpos"				"c-110"
 		"ypos"				"120"
 		"zpos"				"6"
 		"wide"				"60"
@@ -121,23 +122,23 @@
 		"pinCorner"			"2"
 		"visible"			"1"
 		"enabled"			"1"
-		
+		"tabPosition"		"0"
 		"labelText"			""
 		"textAlignment"		"south-west"
 		"Command"			"loadout demoman"
-		
+		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		"activeimage"		"class_sel_sm_demo_red"
 		"inactiveimage"		"class_sel_sm_demo_inactive"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}	
+	}
 	"heavyweapons"
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"heavyweapons"
-		"xpos"				"c-40"
+		"xpos"				"c-60"
 		"ypos"				"120"
 		"zpos"				"6"
 		"wide"				"60"
@@ -146,11 +147,11 @@
 		"pinCorner"			"2"
 		"visible"			"1"
 		"enabled"			"1"
-		
+		"tabPosition"		"0"
 		"labelText"			""
 		"textAlignment"		"south-west"
 		"Command"			"loadout heavy"
-		
+		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		"activeimage"		"class_sel_sm_heavy_red"
@@ -162,7 +163,7 @@
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"engineer"
-		"xpos"				"c10"
+		"xpos"				"c-10"
 		"ypos"				"120"
 		"zpos"				"6"
 		"wide"				"60"
@@ -171,11 +172,11 @@
 		"pinCorner"			"2"
 		"visible"			"1"
 		"enabled"			"1"
-		
+		"tabPosition"		"0"
 		"labelText"			""
 		"textAlignment"		"south-west"
 		"Command"			"loadout engineer"
-		
+		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		"activeimage"		"class_sel_sm_engineer_red"
@@ -183,12 +184,12 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"medic"
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"medic"
-		"xpos"				"c98"
+		"xpos"				"c78"
 		"ypos"				"120"
 		"zpos"				"6"
 		"wide"				"60"
@@ -197,11 +198,11 @@
 		"pinCorner"			"2"
 		"visible"			"1"
 		"enabled"			"1"
-		
+		"tabPosition"		"0"
 		"labelText"			""
 		"textAlignment"		"south-west"
 		"Command"			"loadout medic"
-		
+		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		"activeimage"		"class_sel_sm_medic_red"
@@ -213,7 +214,7 @@
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"sniper"
-		"xpos"				"c148"
+		"xpos"				"c128"
 		"ypos"				"120"
 		"zpos"				"6"
 		"wide"				"60"
@@ -222,11 +223,11 @@
 		"pinCorner"			"2"
 		"visible"			"1"
 		"enabled"			"1"
-		
+		"tabPosition"		"0"
 		"labelText"			""
 		"textAlignment"		"south-west"
 		"Command"			"loadout sniper"
-		
+		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		"activeimage"		"class_sel_sm_sniper_red"
@@ -238,7 +239,7 @@
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"spy"
-		"xpos"				"c198"
+		"xpos"				"c178"
 		"ypos"				"120"
 		"zpos"				"6"
 		"wide"				"60"
@@ -247,24 +248,24 @@
 		"pinCorner"			"2"
 		"visible"			"1"
 		"enabled"			"1"
-		
+		"tabPosition"		"0"
 		"labelText"			""
 		"textAlignment"		"south-west"
 		"Command"			"loadout spy"
-		
+		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		"activeimage"		"class_sel_sm_spy_red"
 		"inactiveimage"		"class_sel_sm_spy_inactive"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}	
-	
+	}
+
 		"ShowBackpackButton"
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"ShowBackpackButton"
-		"xpos"				"c-270"
+		"xpos"				"c-290"
 		"ypos"				"235"
 		"zpos"				"6"
 		"wide"				"60"
@@ -273,18 +274,18 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		
+		"tabPosition"		"0"
 		"labelText"			""
 		"textAlignment"		"south-west"
 		"Command"			"backpack"
-		
+		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		"activeimage"		"..\hud\backpack_01"
 		"inactiveimage"		"..\hud\backpack_01_grey"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}	
+	}
 	"ShowBackpackLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -301,14 +302,14 @@
 		"enabled"		"1"
 
 		"pin_to_sibling"               "ShowBackpackButton"
-		"pin_corner_to_sibling"        "4"          
-		"pin_to_sibling_corner"        "6"  
+		"pin_corner_to_sibling"        "4"
+		"pin_to_sibling_corner"        "6"
 	}
 	"ShowCraftingButton"
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"ShowCraftingButton"
-		"xpos"				"c-150"
+		"xpos"				"c-160"
 		"ypos"				"235"
 		"zpos"				"6"
 		"wide"				"60"
@@ -317,11 +318,11 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		
+		"tabPosition"		"0"
 		"labelText"			""
 		"textAlignment"		"south-west"
 		"Command"			"crafting"
-		
+		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		"activeimage"		"crafting_anvil"
@@ -345,9 +346,9 @@
 		"enabled"		"1"
 
 		"pin_to_sibling"               "ShowCraftingButton"
-		"pin_corner_to_sibling"        "4"          
-		"pin_to_sibling_corner"        "6"  
-	}	
+		"pin_corner_to_sibling"        "4"
+		"pin_to_sibling_corner"        "6"
+	}
 	"ShowArmoryButton"
 	{
 		"ControlName"		"ImageButton"
@@ -361,18 +362,18 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		
+		"tabPosition"		"0"
 		"labelText"			""
 		"textAlignment"		"south-west"
 		"Command"			"armory"
-		
+		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		"activeimage"		"catalog_book"
 		"inactiveimage"		"catalog_book_gray"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}	
+	}
 	"ShowArmoryLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -389,8 +390,8 @@
 		"enabled"		"1"
 
 		"pin_to_sibling"               "ShowArmoryButton"
-		"pin_corner_to_sibling"        "4"          
-		"pin_to_sibling_corner"        "6" 
+		"pin_corner_to_sibling"        "4"
+		"pin_to_sibling_corner"        "6"
 	}
 	"ShowTradeButton"
 	{
@@ -405,18 +406,18 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		
+		"tabPosition"		"0"
 		"labelText"			""
 		"textAlignment"		"south-west"
 		"Command"			"trading"
-		
+		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		"activeimage"		"trading_parcel"
 		"inactiveimage"		"trading_parcel_gray"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}	
+	}
 	"ShowTradeLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -434,8 +435,8 @@
 		"wrap"			"0"
 
 		"pin_to_sibling"               "ShowTradeButton"
-		"pin_corner_to_sibling"        "4"          
-		"pin_to_sibling_corner"        "6" 
+		"pin_corner_to_sibling"        "4"
+		"pin_to_sibling_corner"        "6"
 	}
 	"ShowPaintkitsButton"
 	{
@@ -450,18 +451,18 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		
+		"tabPosition"		"0"
 		"labelText"			""
 		"textAlignment"		"south-west"
 		"Command"			"paintkit_preview"
-		
+		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		"activeimage"		"paintkit_tool"
 		"inactiveimage"		"paintkit_tool_bw"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}	
+	}
 	"ShowPaintkitsLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -479,10 +480,10 @@
 		"wrap"			"0"
 
 		"pin_to_sibling"               "ShowPaintkitsButton"
-		"pin_corner_to_sibling"        "4"          
-		"pin_to_sibling_corner"        "6" 
+		"pin_corner_to_sibling"        "4"
+		"pin_to_sibling_corner"        "6"
 	}
-	
+
 	"ClassLabel"
 	{
 		"ControlName"	"Label"
@@ -515,7 +516,7 @@
 		"fgcolor"		"117 107 94 255"
 		"centerwrap"	"1"
 	}
-	
+
 	"NoSteamLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -530,7 +531,7 @@
 		"tall"			"30"
 		"visible"		"0"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "Deer_Primary"
 	}
 	"NoGCLabel"
 	{
@@ -546,7 +547,7 @@
 		"tall"			"30"
 		"visible"		"0"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "Deer_Primary"
 	}
 	"SelectLabel"
 	{
@@ -578,16 +579,17 @@
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		//"fgcolor_override" "Deer_Primary"
+		"fgcolor_override" "Deer_Primary"
 	}
-	
+
 	"class_loadout_panel"
 	{
 		"ControlName"		"CClassLoadoutPanel"
 		"fieldName"			"class_loadout_panel"
-		"xpos"				"45"
+		"xpos"				"50"
 		"ypos"				"0"
-		"wide"				"f0"
+		"wide"				"f0-50"
 		"tall"				"400"
 		"zpos"				"500"
 		"visible"			"0"
@@ -604,7 +606,7 @@
 		"visible"			"0"
 	}
 
-	
+
 	"armory_panel"
 	{
 		"ControlName"		"CArmoryPanel"
@@ -635,7 +637,7 @@
 	{
 		"ControlName"						"CExImageButton"
 		"fieldName"							"ScoutCustom"
-		"xpos"								"5"
+		"xpos"								"10"
 		"ypos"								"5"
 		"zpos"								"1"
 		"wide"								"35"
@@ -643,13 +645,13 @@
 		"visible"							"1"
 		"enabled"							"1"
 		"Command"							"loadout scout"
-		
+
 		"sound_armed"						"UI/buttonrollover.wav"
 		"sound_depressed"					"UI/buttonclick.wav"
 		"paintbackground"					"0"
 		"labelText"						"&1"
 		"textinsetx"					"-999"
-		
+
 		"image_drawcolor"	"Deer_White"
 		"image_armedcolor"	"251 129 173 255" //Deer_Pink
 
@@ -669,7 +671,7 @@
 			"image"									"replay/thumbnails/class_icons/scout"
 		}
 	}
-	
+
 	"SoldierCustom"
 	{
 		"ControlName"						"CExImageButton"
@@ -682,17 +684,18 @@
 		"visible"							"1"
 		"enabled"							"1"
 		"Command"							"loadout soldier"
-		
+
 		"sound_armed"						"UI/buttonrollover.wav"
 		"sound_depressed"					"UI/buttonclick.wav"
 		"paintbackground"					"0"
 		"labelText"							"&2"
 		"textinsetx"						"-999"
-		
+		"stayselectedonclick"	"1"
+
 		"pin_to_sibling"		"ScoutCustom"
 		"pin_corner_to_sibling"	"0"
 		"pin_to_sibling_corner"	"2"
-		
+
 		"image_drawcolor"	"Deer_White"
 		"image_armedcolor"	"251 129 173 255" //Deer_Pink
 
@@ -724,17 +727,18 @@
 		"visible"							"1"
 		"enabled"							"1"
 		"Command"							"loadout pyro"
-		
+		"stay_armed_on_click"	"1"
+
 		"sound_armed"						"UI/buttonrollover.wav"
 		"sound_depressed"					"UI/buttonclick.wav"
 		"paintbackground"					"0"
 		"labelText"						"&3"
 		"textinsetx"					"-999"
-		
+
 		"pin_to_sibling"		"SoldierCustom"
 		"pin_corner_to_sibling"	"0"
 		"pin_to_sibling_corner"	"2"
-		
+
 		"image_drawcolor"	"Deer_White"
 		"image_armedcolor"	"251 129 173 255" //Deer_Pink
 
@@ -754,7 +758,7 @@
 			"image"									"replay/thumbnails/class_icons/pyro"
 		}
 	}
-	
+
 	"DemoCustom"
 	{
 		"ControlName"						"CExImageButton"
@@ -768,17 +772,17 @@
 		"enabled"							"1"
 		"Command"							"loadout demoman"
 		"stay_armed_on_click"	"1"
-		
+
 		"sound_armed"						"UI/buttonrollover.wav"
 		"sound_depressed"					"UI/buttonclick.wav"
 		"paintbackground"					"0"
 		"labelText"						"&4"
 		"textinsetx"					"-999"
-		
+
 		"pin_to_sibling"		"PyroCustom"
 		"pin_corner_to_sibling"	"0"
 		"pin_to_sibling_corner"	"2"
-		
+
 		"image_drawcolor"	"Deer_White"
 		"image_armedcolor"	"251 129 173 255" //Deer_Pink
 
@@ -810,17 +814,17 @@
 		"visible"							"1"
 		"enabled"							"1"
 		"Command"							"loadout Heavy"
-		
+
 		"sound_armed"						"UI/buttonrollover.wav"
 		"sound_depressed"					"UI/buttonclick.wav"
 		"paintbackground"					"0"
 		"labelText"						"&5"
 		"textinsetx"					"-999"
-		
+
 		"pin_to_sibling"		"DemoCustom"
 		"pin_corner_to_sibling"	"0"
 		"pin_to_sibling_corner"	"2"
-		
+
 		"image_drawcolor"	"Deer_White"
 		"image_armedcolor"	"251 129 173 255" //Deer_Pink
 
@@ -853,17 +857,17 @@
 		"visible"							"1"
 		"enabled"							"1"
 		"Command"							"loadout engineer"
-		
+
 		"sound_armed"						"UI/buttonrollover.wav"
 		"sound_depressed"					"UI/buttonclick.wav"
 		"paintbackground"					"0"
 		"labelText"						"&6"
 		"textinsetx"					"-999"
-		
+
 		"pin_to_sibling"		"HeavyCustom"
 		"pin_corner_to_sibling"	"0"
 		"pin_to_sibling_corner"	"2"
-		
+
 		"image_drawcolor"	"Deer_White"
 		"image_armedcolor"	"251 129 173 255" //Deer_Pink
 
@@ -895,17 +899,17 @@
 		"visible"							"1"
 		"enabled"							"1"
 		"Command"							"loadout medic"
-		
+
 		"sound_armed"						"UI/buttonrollover.wav"
 		"sound_depressed"					"UI/buttonclick.wav"
 		"paintbackground"					"0"
 		"labelText"						"&7"
 		"textinsetx"					"-999"
-		
+
 		"pin_to_sibling"		"EngiCustom"
 		"pin_corner_to_sibling"	"0"
 		"pin_to_sibling_corner"	"2"
-		
+
 		"image_drawcolor"	"Deer_White"
 		"image_armedcolor"	"251 129 173 255" //Deer_Pink
 
@@ -937,17 +941,17 @@
 		"visible"							"1"
 		"enabled"							"1"
 		"Command"							"loadout sniper"
-		
+
 		"sound_armed"						"UI/buttonrollover.wav"
 		"sound_depressed"					"UI/buttonclick.wav"
 		"paintbackground"					"0"
 		"labelText"						"&8"
 		"textinsetx"					"-999"
-		
+
 		"pin_to_sibling"		"MedicCustom"
 		"pin_corner_to_sibling"	"0"
 		"pin_to_sibling_corner"	"2"
-		
+
 		"image_drawcolor"	"Deer_White"
 		"image_armedcolor"	"251 129 173 255" //Deer_Pink
 
@@ -979,17 +983,17 @@
 		"visible"							"1"
 		"enabled"							"1"
 		"Command"							"loadout spy"
-		
+
 		"sound_armed"						"UI/buttonrollover.wav"
 		"sound_depressed"					"UI/buttonclick.wav"
 		"paintbackground"					"0"
 		"labelText"						"&9"
 		"textinsetx"					"-999"
-		
+
 		"pin_to_sibling"		"SniperCustom"
 		"pin_corner_to_sibling"	"0"
 		"pin_to_sibling_corner"	"2"
-		
+
 		"image_drawcolor"	"Deer_White"
 		"image_armedcolor"	"251 129 173 255" //Deer_Pink
 
@@ -1009,5 +1013,5 @@
 			"image"									"replay/thumbnails/class_icons/spy"
 		}
 	}
-	
+
 }

@@ -1,5 +1,5 @@
 Scheme
-{    
+{
     /////////////////////// BITMAP FONT FILES ///////////////////////
 	//
 	// Bitmap Fonts are ****VERY*** expensive static memory resources so they are purposely sparse
@@ -158,7 +158,7 @@ Scheme
 				"range"			"0x0000 0x00FF"
 				"yres"			"1080 1439"
 			}
-			
+
 			"3"
 			{
 				"name"			"VHS-Custom"
@@ -231,7 +231,7 @@ Scheme
 				"range"			"0x0000 0x00FF"
 				"yres"			"1080 1439"
 			}
-			
+
 			"3"
 			{
 				"name"			"VHS-Custom"
@@ -240,7 +240,7 @@ Scheme
 				"range"			"0x0000 0x00FF"
 			}
 		}
-		
+
 		Icon12
 		{
 			"1"
